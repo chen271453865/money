@@ -1,0 +1,258 @@
+/* 头部开始 */
+header{
+	background: #ffae00;
+	overflow: hidden;
+}
+.logo_contain,
+.search_input,
+.search_btn{
+	display: inline-block;
+}
+.daily_back{
+	font-size: 3rem !important;
+	color: #ffffff;
+	height: 100%;
+	display: inline-block;
+	vertical-align: middle;
+}
+.search_input{
+	text-align: center;
+	color: #ffffff;
+	width: 26rem;
+	font-size: 1.4rem;
+	font-weight: bold;
+	height: 4rem;
+	line-height: 4rem;
+}
+/* 头部结束 */
+/* 复选按钮开始 */
+.select_all label i,
+.shop_name label i{
+            font-size:2rem;
+            font-style:normal;
+            display:inline-block;
+            width:2rem;
+            height:2rem;
+            text-align:center;
+            line-height:2rem;
+            color:#ffffff;
+            vertical-align:middle;
+           margin: -0.2rem 0.2rem 0.1rem 0;
+            border:0.1rem solid #999988;
+            border-radius: 50%;
+}
+.shop_message label i{
+            font-size:2rem;
+            font-style:normal;
+            display:inline-block;
+            width:2rem;
+            height:2rem;
+            text-align:center;
+            line-height:2rem;
+            color:#f5f5f5;
+            vertical-align:middle;
+           margin: -0.2rem 0.2rem 0.1rem 0;
+            border:0.1rem solid #999988;
+            border-radius: 50%;
+}
+input[type="checkbox"],
+input[type="radio"]{
+    display:none;
+}
+input[type="checkbox"]:checked + i{
+    background:#ffae00;
+}
+/* 复选按钮结束 */
+/* 全部商家信息开始 */
+.all_shopper{
+    margin-bottom: 5.5rem;
+}
+.all_shopper,
+.single_shopper,
+.shop_title{
+    overflow: hidden;
+}
+.shop_title{
+    padding: 0 1rem;
+    background: #ffffff;
+    margin-top: 1rem;
+    height: 4rem;
+    line-height: 4rem;
+}
+.single_shopper
+,.all_shopper{
+    box-shadow:0.3rem 0.5rem 0.5rem rgba(0, 0, 0, .1);
+}
+.shop_name,
+.edit_btn{
+    display: inline-block;
+}
+.edit_btn{
+    float: right;
+    color: #ffae00;
+}
+.shop_message{
+    padding: 1rem;
+    display: flex;
+    border-bottom: 0.1rem solid #f1f1f1;
+    background: #f9f9f9;
+}
+.checkbox_contain,
+.shop_detail,
+.product_img_contain,
+.product_other_msg,
+.price,
+.num{
+    display: inline-block;
+}
+.price{
+    float: left;
+    height: 4rem;
+    line-height: 4rem;
+}
+.shop_name span{
+    color: #9aa1a5;
+}
+.icon_size{
+    font-size: 1.2rem;
+     color: #9aa1a5;
+}
+.price i{
+    color: #ffae00;
+}
+.price span{
+    font-weight: bold;
+    color: #ffae00;
+    font-size: 2rem;
+}
+.num{
+    float: right;
+    height: 4rem;
+    line-height: 4rem;
+}
+.checkbox_contain{
+    margin-top: middle;
+}
+.shop_detail,
+.product_other_msg{
+    padding-left: 0.5rem;
+    position: relative;
+}
+.product_img_contain{
+    width: 7rem;
+    height: 7rem;
+    background-size: contain;
+    -webkit-background-size: contain;
+    vertical-align: top;
+}
+.product_img_contain img{
+    width: 100%;
+    height: 100%;
+}
+.product_other_msg{
+    width: 19.8rem !important;
+    display: inline-block;
+}
+.product_detail{
+    font-size: 1.2rem;
+    color: #999988;
+}
+/* 全部商家信息结束 */
+/* 提交订单开始 */
+.confirm_sub{
+    position: fixed;
+    z-index: 2;
+    bottom: 0;
+    height: 5rem;
+    width: 100%;
+    background: #ffffff;
+}
+.select_all,
+.all_price
+.sub_btn{
+    display: inline-block;
+}
+.select_all{
+    line-height: 5rem;
+    height: 5rem;
+    padding-left: 1rem;
+}
+.all_price{
+    display: inline-block !important;
+    height: 5rem;
+    padding-left: 0.5rem;
+}
+.all_price strong{
+    color: #ffae00;
+    font-size: 2rem;
+    font-weight: normal;
+}
+.sub_btn{
+    float: right;
+    line-height: 5rem;
+    background: #ffae00;
+    color: #ffffff;
+    font-weight: bold;
+    height: 5rem;
+    width: 8rem;
+    text-align: center;
+}
+/* 弹出开始 */
+.eject{
+    position: absolute;
+    right: 0;
+    width: 19.8rem;
+    background: #f5f5f5;
+    height: 7rem;
+    top: 0;
+    display: none;
+}
+.num_input{
+    display: inline-block;
+}
+.num_input a{
+    width: 3rem;
+    height: 3rem;
+    background-size: contain;
+    -webkit-background-size: contain;
+    display: inline-block;
+}
+.num_input a img{
+    width: 100%;
+    height: 100%;
+}
+.num_input{
+    float: right;
+}
+.num_input input{
+    width: 4.8rem;
+    height: 3rem;
+    line-height: 3rem;
+    box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    text-align: center;
+    border: 0.1rem solid #f1f1f1;
+    border-color: #f1f1f1;
+    outline-style: none;
+    vertical-align: middle;
+}
+.eject_msg_remove{
+    position: absolute;
+    right: 0;
+    height: 7rem;
+    line-height: 7rem;
+    width: 6rem;
+    text-align: center;
+    background: #ffae00;
+    z-index: 3;
+    top: 0;
+    color: #ffffff;
+}
+.num_input{
+  position: absolute;
+  top: 50%;
+  left: 32%;
+  transform:translate(-50%,-50%);
+}
+/* 弹出结束 */
+/* 提交订单结束 */

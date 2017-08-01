@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+<meta name="format-detection" content="telephone=no" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<title>个人中心</title>
+<link rel="stylesheet" href="../css/reset.css">
+<link rel="stylesheet" href="http://at.alicdn.com/t/font_3ymnlpvlw5ovfgvi.css">
+<link rel="stylesheet" href="../css/person_center.css">
+</head>
+<body>
+	<header>
+		<section class="user_logo">
+			<img src="../imgs/userlogo.jpg" height="160" width="160" alt="">
+			<p>WZW</p>
+		</section>
+	</header>
+	<!-- 订单信息开始 -->
+	<section class="order">
+		<section class="all_order">
+			<section class="my_order">我的订单</section>
+			<a href="all_order.html" class="check_all_order">查看全部订单 <i class="iconfont  icon-youbian"></i></a>
+		</section>
+		<section class="other_order">
+			<a href="javascript:void(0);">
+				<i class="iconfont icon-daifukuan order_icon"></i>
+				<section class="order_span">待付款</section>
+			</a>
+			<a href="javascript:void(0);">
+				<i class="iconfont icon-daifahuo order_icon"></i>
+				<section class="order_span">待发货</section>
+			</a>
+			<a href="javascript:void(0);">
+				<i class="iconfont icon-daishouhuo order_icon"></i>
+				<section class="order_span">待收货</section>
+			</a>
+		</section>
+	</section>
+	<!-- 订单信息结束 -->
+	<!-- 其他信息开始 -->
+	<section class="center_address">
+		<a href="address_select.html" class="other_functions">
+			<section class="address_select">
+				<i class="iconfont icon-dizhi order_icon"></i>&nbsp;
+				<span>选择地址</span>
+				<i class="iconfont  icon-youbian icon_right"></i>
+			</section>
+		</a>
+	</section>
+	<!-- 其他信息结束 -->
+	<!-- 底部导航开始 -->
+	<nav>
+		<ul>
+			<li>
+				<a href="index.html" class="tab_nav">
+					<i class="iconfont  icon-shouye Initialization"></i>
+					<section class="nav_title">首页</section>
+				</a>
+			</li>
+			<li>
+				<a href="shopping_car.html" class="tab_nav">
+					<i class="iconfont  icon-gouwuche Initialization"></i>
+					<section class="nav_title">购物车</section>
+				</a>
+			</li>
+			<li>
+				<a href="javascript:void(0);" class="tab_nav">
+					<i class="iconfont  icon-person Initialization active"></i>
+					<section class="nav_title active">我的</section>
+				</a>
+			</li>
+		</ul>
+	</nav>
+	<!-- 底部导航结束 -->
+</body>
+</html>
+<script src="http://libs.baidu.com/jquery/1.11.3/jquery.min.js"></script>
+<script src="../js/remshipei.js"></script>

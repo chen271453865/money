@@ -1,0 +1,119 @@
+/* 头部开始 */
+header{
+	background: #ffae00;
+	overflow: hidden;
+}
+.logo_contain,
+.search_input,
+.search_btn{
+	display: inline-block;
+}
+.daily_back{
+	font-size: 3rem !important;
+	color: #ffffff;
+	height: 100%;
+	display: inline-block;
+	vertical-align: middle;
+}
+.search_input{
+	text-align: center;
+	color: #ffffff;
+	width: 26rem;
+	font-size: 1.4rem;
+	font-weight: bold;
+	height: 4rem;
+	line-height: 4rem;
+}
+/* 头部结束 */
+/* 复选按钮开始 */
+label i{
+            font-size:2rem;
+            font-style:normal;
+            display:inline-block;
+            width:2rem;
+            height:2rem;
+            text-align:center;
+            line-height:2rem;
+            color:#ffffff;
+            vertical-align:middle;
+           margin: -0.2rem 0.2rem 0.1rem 0;
+            border:0.1rem solid #999988;
+            border-radius: 50%;
+}
+label{
+	vertical-align: -webkit-baseline-middle;
+}
+input[type="radio"],
+input[type="radio"]{
+    display:none;
+}
+input[type="radio"]:checked + i{
+    background:#ffae00;
+}
+/* 复选按钮结束 */
+/* 设置默认开始 */
+.set_default:nth-of-type(1){
+	margin-top: 0;
+}
+.set_default{
+	padding: 1rem;
+	background: #ffffff;
+	display: block;
+	margin-top: 1rem;
+}
+.name_phone{
+	overflow: hidden;
+}
+.name,
+.phone{
+	display: inline-block;
+	width: 14.8rem;
+}
+.name small,
+.phone small,
+.detail_address small{
+	color: #999988;
+}
+.phone{
+	text-align: right;
+}
+.detail_address{
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	border-bottom: 0.1rem solid #f1f1f1;
+}
+.default{
+	display: flex;
+	margin-top: 1rem;
+}
+.default a{
+	flex:1;
+	-webkit-flex:1;
+	color: #999988;
+}
+.icon_right{
+	float: right;
+	color: #999988;
+	font-size: 2rem !important;
+}
+.link_edit{
+	display: block;
+	overflow: hidden;
+	color: #999988;
+}
+/* 设置默认结束 */
+/* 新增地址按钮开始 */
+.add_new_address{
+	text-align: center;
+	background: #ffae00;
+	color: #ffffff;
+	font-weight: bold;
+	width: 90%;
+	height: 5rem;
+	line-height: 5rem;
+	margin: 2rem auto;
+	display: block;
+	border: 0;
+	outline-style: none;
+}
+/* 新增地址按钮结束 */

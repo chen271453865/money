@@ -1,0 +1,394 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+<meta name="format-detection" content="telephone=no" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<link rel="stylesheet" href="../css/reset.css">
+<link rel="stylesheet" href="../css/all_order.css">
+<link rel="stylesheet" href="http://at.alicdn.com/t/font_3ymnlpvlw5ovfgvi.css">
+<script src="http://libs.baidu.com/jquery/1.11.3/jquery.min.js"></script>
+<script src="../js/remshipei.js"></script>
+<title>移动端左右滑动切换</title>
+</head>
+<script>
+	$(function(){
+		$('nav a').click(function(event) {
+			/* Act on the event */
+			$('nav a').removeClass('active');
+			$(this).addClass('active');
+			$('#wrap div').css({
+				display: 'none',
+			});
+			$('#wrap div').eq( $(this).index() ).css({
+				display: 'block',
+			});
+		});
+	})
+</script>
+<body>
+	<!-- 头部开始 -->
+	<section class="fixed_top">
+		<header>
+			<a class="iconfont  icon-fanhui daily_back" href="person_center.html"></a>
+			<section class="search_input">
+				全部订单
+			</section>
+		</header>
+		<!-- 头部结束 -->
+		<nav>
+			<a href="javascript:void(0)" class="active">
+				全部订单
+			</a>
+			<a href="javascript:void(0)">
+				待付款
+			</a>
+			<a href="javascript:void(0)">
+				待发货
+			</a>
+			<a href="javascript:void(0)">
+				待收货
+			</a>
+		</nav>
+	</section>
+	
+	<section class="contain_all">
+		<div id="wrap">
+			<div class="section1">
+				<section class="single_order">
+					<section class="order_title">
+						<a href="javascript:void(0);">小胖子店铺<i class="iconfont icon-youbian icon_size"></i></a>
+						<span>交易成功</span>
+					</section>
+					<a class="order_contain">
+						<section class="order_img">
+							<img src="../imgs/product_img.jpg" height="220" width="220" alt="">
+						</section>
+						<seection class="order_msg">
+							包邮节能大家用猛火炉商用铸铁燃气煤气液化气天然气沼气台式单灶
+						</seection>
+						<section class="price_num">
+							<section class="price"><i>¥</i>190000.00</section>
+							<section class="num">×1</section>
+						</section>
+					</a>
+					<a class="order_contain">
+						<section class="order_img">
+							<img src="../imgs/product_img.jpg" height="220" width="220" alt="">
+						</section>
+						<seection class="order_msg">
+							包邮节能大家用猛火炉商用铸铁燃气煤气液化气天然气沼气台式单灶
+						</seection>
+						<section class="price_num">
+							<section class="price"><i>¥</i>190000.00</section>
+							<section class="num">×1</section>
+						</section>
+					</a>
+					<a class="order_contain">
+						<section class="order_img">
+							<img src="../imgs/product_img.jpg" height="220" width="220" alt="">
+						</section>
+						<seection class="order_msg">
+							包邮节能大家用猛火炉商用铸铁燃气煤气液化气天然气沼气台式单灶
+						</seection>
+						<section class="price_num">
+							<section class="price"><i>¥</i>190000.00</section>
+							<section class="num">×1</section>
+						</section>
+					</a>
+					<section class="price_notice">
+						<span>共<strong>1</strong>件商品</span>
+						<span>合计：<i>¥</i><strong>190000.00</strong></span>
+						<span>包含运费：(<strong>19.00</strong>)</span>
+					</section>
+					<section class="remove">
+						<a href="javascript:void(0)" class="remove_order">
+							删除订单
+						</a>
+					</section>
+				</section>
+				<section class="single_order">
+					<section class="order_title">
+						<a href="javascript:void(0);">小胖子店铺<i class="iconfont icon-youbian icon_size"></i></a>
+						<span>交易成功</span>
+					</section>
+					<a class="order_contain">
+						<section class="order_img">
+							<img src="../imgs/product_img.jpg" height="220" width="220" alt="">
+						</section>
+						<seection class="order_msg">
+							包邮节能大家用猛火炉商用铸铁燃气煤气液化气天然气沼气台式单灶
+						</seection>
+						<section class="price_num">
+							<section class="price"><i>¥</i>190000.00</section>
+							<section class="num">×1</section>
+						</section>
+					</a>
+					<a class="order_contain">
+						<section class="order_img">
+							<img src="../imgs/product_img.jpg" height="220" width="220" alt="">
+						</section>
+						<seection class="order_msg">
+							包邮节能大家用猛火炉商用铸铁燃气煤气液化气天然气沼气台式单灶
+						</seection>
+						<section class="price_num">
+							<section class="price"><i>¥</i>190000.00</section>
+							<section class="num">×1</section>
+						</section>
+					</a>
+					<a class="order_contain">
+						<section class="order_img">
+							<img src="../imgs/product_img.jpg" height="220" width="220" alt="">
+						</section>
+						<seection class="order_msg">
+							包邮节能大家用猛火炉商用铸铁燃气煤气液化气天然气沼气台式单灶
+						</seection>
+						<section class="price_num">
+							<section class="price"><i>¥</i>190000.00</section>
+							<section class="num">×1</section>
+						</section>
+					</a>
+					<section class="price_notice">
+						<span>共<strong>1</strong>件商品</span>
+						<span>合计：<i>¥</i><strong>190000.00</strong></span>
+						<span>包含运费：（<strong>19.00</strong>）</span>
+					</section>
+					<section class="remove">
+						<a href="javascript:void(0)" class="remove_order">
+							删除订单
+						</a>
+					</section>
+				</section>
+				<section class="single_order">
+					<section class="order_title">
+						<a href="javascript:void(0);">小胖子店铺<i class="iconfont icon-youbian icon_size"></i></a>
+						<span>交易成功</span>
+					</section>
+					<a class="order_contain">
+						<section class="order_img">
+							<img src="../imgs/product_img.jpg" height="220" width="220" alt="">
+						</section>
+						<seection class="order_msg">
+							包邮节能大家用猛火炉商用铸铁燃气煤气液化气天然气沼气台式单灶
+						</seection>
+						<section class="price_num">
+							<section class="price"><i>¥</i>190000.00</section>
+							<section class="num">×1</section>
+						</section>
+					</a>
+					<a class="order_contain">
+						<section class="order_img">
+							<img src="../imgs/product_img.jpg" height="220" width="220" alt="">
+						</section>
+						<seection class="order_msg">
+							包邮节能大家用猛火炉商用铸铁燃气煤气液化气天然气沼气台式单灶
+						</seection>
+						<section class="price_num">
+							<section class="price"><i>¥</i>190000.00</section>
+							<section class="num">×1</section>
+						</section>
+					</a>
+					<a class="order_contain">
+						<section class="order_img">
+							<img src="../imgs/product_img.jpg" height="220" width="220" alt="">
+						</section>
+						<seection class="order_msg">
+							包邮节能大家用猛火炉商用铸铁燃气煤气液化气天然气沼气台式单灶
+						</seection>
+						<section class="price_num">
+							<section class="price"><i>¥</i>190000.00</section>
+							<section class="num">×1</section>
+						</section>
+					</a>
+					<section class="price_notice">
+						<span>共<strong>1</strong>件商品</span>
+						<span>合计：<i>¥</i><strong>190000.00</strong></span>
+						<span>包含运费：（<strong>19.00</strong>）</span>
+					</section>
+					<section class="remove">
+						<a href="javascript:void(0)" class="remove_order">
+							删除订单
+						</a>
+					</section>
+				</section>
+			</div>
+			<div class="section2">
+				<section class="single_order">
+					<section class="order_title">
+						<a href="javascript:void(0);">小胖子店铺<i class="iconfont icon-youbian icon_size"></i></a>
+						<span>待付款</span>
+					</section>
+					<a class="order_contain">
+						<section class="order_img">
+							<img src="../imgs/product_img.jpg" height="220" width="220" alt="">
+						</section>
+						<seection class="order_msg">
+							包邮节能大家用猛火炉商用铸铁燃气煤气液化气天然气沼气台式单灶
+						</seection>
+						<section class="price_num">
+							<section class="price"><i>¥</i>190000.00</section>
+							<section class="num">×1</section>
+						</section>
+					</a>
+					<a class="order_contain">
+						<section class="order_img">
+							<img src="../imgs/product_img.jpg" height="220" width="220" alt="">
+						</section>
+						<seection class="order_msg">
+							包邮节能大家用猛火炉商用铸铁燃气煤气液化气天然气沼气台式单灶
+						</seection>
+						<section class="price_num">
+							<section class="price"><i>¥</i>190000.00</section>
+							<section class="num">×1</section>
+						</section>
+					</a>
+					<a class="order_contain">
+						<section class="order_img">
+							<img src="../imgs/product_img.jpg" height="220" width="220" alt="">
+						</section>
+						<seection class="order_msg">
+							包邮节能大家用猛火炉商用铸铁燃气煤气液化气天然气沼气台式单灶
+						</seection>
+						<section class="price_num">
+							<section class="price"><i>¥</i>190000.00</section>
+							<section class="num">×1</section>
+						</section>
+					</a>
+					<section class="price_notice">
+						<span>共<strong>1</strong>件商品</span>
+						<span>合计：<i>¥</i><strong>190000.00</strong></span>
+						<span>包含运费：（<strong>19.00</strong>）</span>
+					</section>
+					<section class="remove">
+						<a href="javascript:void(0)" class="remove_order pay_now">
+							立即支付
+						</a>
+					</section>
+				</section>
+			</div>
+			<div class="section3">
+				<section class="single_order" style="display:none;">
+					<section class="order_title">
+						<a href="javascript:void(0);">小胖子店铺<i class="iconfont icon-youbian icon_size"></i></a>
+						<span>待发货</span>
+					</section>
+					<a class="order_contain">
+						<section class="order_img">
+							<img src="../imgs/product_img.jpg" height="220" width="220" alt="">
+						</section>
+						<seection class="order_msg">
+							包邮节能大家用猛火炉商用铸铁燃气煤气液化气天然气沼气台式单灶
+						</seection>
+						<section class="price_num">
+							<section class="price"><i>¥</i>190000.00</section>
+							<section class="num">×1</section>
+						</section>
+					</a>
+					<a class="order_contain">
+						<section class="order_img">
+							<img src="../imgs/product_img.jpg" height="220" width="220" alt="">
+						</section>
+						<seection class="order_msg">
+							包邮节能大家用猛火炉商用铸铁燃气煤气液化气天然气沼气台式单灶
+						</seection>
+						<section class="price_num">
+							<section class="price"><i>¥</i>190000.00</section>
+							<section class="num">×1</section>
+						</section>
+					</a>
+					<a class="order_contain">
+						<section class="order_img">
+							<img src="../imgs/product_img.jpg" height="220" width="220" alt="">
+						</section>
+						<seection class="order_msg">
+							包邮节能大家用猛火炉商用铸铁燃气煤气液化气天然气沼气台式单灶
+						</seection>
+						<section class="price_num">
+							<section class="price"><i>¥</i>190000.00</section>
+							<section class="num">×1</section>
+						</section>
+					</a>
+					<section class="price_notice">
+						<span>共<strong>1</strong>件商品</span>
+						<span>合计：<i>¥</i><strong>190000.00</strong></span>
+						<span>包含运费：（<strong>19.00</strong>）</span>
+					</section>
+					<section class="remove">
+						<a href="javascript:void(0)" class="remove_order pay_now">
+							催促卖家
+						</a>
+					</section>
+				</section>
+				<!-- 没有订单开始 -->
+				<section class="no_order">
+					<i class="iconfont icon-dingdan no_order_size"></i>
+					<section class="no_order_msg">
+						<p>您还没有相关的订单</p>
+						<small>可以去看看有哪些想买</small><br>
+					</section>
+					<a href="javascript:void(0);" class="pay_now back_index">随便逛逛</a>
+				</section>
+				<!-- 没有订单结束 -->
+			</div>
+			<div class="section4">
+				<section class="single_order">
+					<section class="order_title">
+						<a href="javascript:void(0);">小胖子店铺<i class="iconfont icon-youbian icon_size"></i></a>
+						<span>待收货</span>
+					</section>
+					<a class="order_contain">
+						<section class="order_img">
+							<img src="../imgs/product_img.jpg" height="220" width="220" alt="">
+						</section>
+						<seection class="order_msg">
+							包邮节能大家用猛火炉商用铸铁燃气煤气液化气天然气沼气台式单灶
+						</seection>
+						<section class="price_num">
+							<section class="price"><i>¥</i>190000.00</section>
+							<section class="num">×1</section>
+						</section>
+					</a>
+					<a class="order_contain">
+						<section class="order_img">
+							<img src="../imgs/product_img.jpg" height="220" width="220" alt="">
+						</section>
+						<seection class="order_msg">
+							包邮节能大家用猛火炉商用铸铁燃气煤气液化气天然气沼气台式单灶
+						</seection>
+						<section class="price_num">
+							<section class="price"><i>¥</i>190000.00</section>
+							<section class="num">×1</section>
+						</section>
+					</a>
+					<a class="order_contain">
+						<section class="order_img">
+							<img src="../imgs/product_img.jpg" height="220" width="220" alt="">
+						</section>
+						<seection class="order_msg">
+							包邮节能大家用猛火炉商用铸铁燃气煤气液化气天然气沼气台式单灶
+						</seection>
+						<section class="price_num">
+							<section class="price"><i>¥</i>190000.00</section>
+							<section class="num">×1</section>
+						</section>
+					</a>
+					<section class="price_notice">
+						<span>共<strong>1</strong>件商品</span>
+						<span>合计：<i>¥</i><strong>190000.00</strong></span>
+						<span>包含运费：（<strong>19.00</strong>）</span>
+					</section>
+					<section class="remove">
+						<a href="javascript:void(0)" class="remove_order">
+							删除订单
+						</a>
+					</section>
+				</section>
+			</div>
+		</div>
+	</section>
+</body>
+</html>

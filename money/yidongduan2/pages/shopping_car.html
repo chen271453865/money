@@ -1,0 +1,132 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>奖品详情</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+<meta name="format-detection" content="telephone=no" />
+ <meta name="apple-mobile-web-app-capable" content="yes" />
+ <meta name="apple-mobile-web-app-status-bar-style" content="black">
+ <link rel="stylesheet" href="../css/reset.css">
+ <link rel="stylesheet" href="../css/shopping_car.css">
+<link rel="stylesheet" href="http://at.alicdn.com/t/font_3ymnlpvlw5ovfgvi.css">
+ </head>
+<body>
+	<!-- 头部开始 -->
+	<header>
+		<a class="iconfont  icon-fanhui daily_back" href="index.html"></a>
+		<section class="search_input">
+			购物车
+		</section>
+	</header>
+	<!-- 头部结束 -->
+	<!-- 复选按钮开始 -->
+	<!-- <label><input type="checkbox" checked><i>✓</i></label> -->
+	<!-- 复选按钮结束 -->
+	<!-- 全部商家信息开始 -->
+	<section class="all_shopper">
+		<section class="single_shopper">
+			<section class="shop_title">
+				<section class="shop_name">
+					<label><input type="checkbox"><i>✓</i></label>
+					<span>小胖子店铺</span>
+					<i class="iconfont icon-youbian icon_size"></i>
+				</section>
+				<a href="javascript:void(0);" class="edit_btn">编辑</a>
+			</section>
+			<section class="shop_message">
+				<section class="checkbox_contain">
+					<label><input type="checkbox"><i>✓</i></label>
+				</section>
+				<section class="shop_detail">
+					<section class="product_img_contain">
+						<img src="../imgs/product_img.jpg" height="220" width="220" alt="">
+					</section>
+					<section class="product_other_msg">
+						<section class="product_detail">
+							包邮节能大家用猛火炉商用铸铁燃气煤气液化气天然气沼气台式单灶
+						</section>
+						<section class="price_num">
+							<section class="price">
+								<i>¥</i>
+								<span>110.00</span>
+							</section>
+							<section class="num">×1</section>
+						</section>
+					</section>
+					<!-- 弹出开始 -->
+					<section class="eject">
+						<section class="eject_msg">
+							<!-- <small>包邮节能大家用猛火炉商用铸铁燃气煤气液化气天然气沼气台式单灶</small> -->
+							<section class="num_input">
+								<a href="javascript:void(0)"><img src="../imgs/reduce2.png" height="58" width="58" alt=""></a><input type="text" value="1"><a href="javascript:void(0)"><img src="../imgs/add.png" height="58" width="58" alt=""></a>
+							</section>
+						</section>
+						<a href="javascript:void(0);" class="eject_msg_remove">删除</a>
+					</section>
+					<!-- 弹出结束 -->
+				</section>
+			</section>
+			<section class="shop_message">
+				<section class="checkbox_contain">
+					<label><input type="checkbox"><i>✓</i></label>
+				</section>
+				<section class="shop_detail">
+					<section class="product_img_contain">
+						<img src="../imgs/product_img.jpg" height="220" width="220" alt="">
+					</section>
+					<section class="product_other_msg">
+						<section class="product_detail">
+							包邮节能大家用猛火炉商用铸铁燃气煤气液化气天然气沼气台式单灶
+						</section>
+						<section class="price_num">
+							<section class="price">
+								<i>¥</i>
+								<span>110.00</span>
+							</section>
+							<section class="num">×1</section>
+						</section>
+					</section>
+					<!-- 弹出开始 -->
+					<section class="eject">
+						<section class="eject_msg">
+							<!-- <small>包邮节能大家用猛火炉商用铸铁燃气煤气液化气天然气沼气台式单灶</small> -->
+							<section class="num_input">
+								<a href="javascript:void(0)"><img src="../imgs/reduce2.png" height="58" width="58" alt=""></a><input type="text" value="1"><a href="javascript:void(0)"><img src="../imgs/add.png" height="58" width="58" alt=""></a>
+							</section>
+						</section>
+						<a href="javascript:void(0);" class="eject_msg_remove">删除</a>
+					</section>
+					<!-- 弹出结束 -->
+				</section>
+			</section>
+		</section>
+		<!-- 提交订单开始 -->
+		<section class="confirm_sub">
+			<section class="select_all">
+				<label><input type="checkbox"><i>✓</i></label>
+				<span>全选</span>
+				<section class="all_price">
+					<small>合计：</small>
+					<i>¥</i>&nbsp;<strong>11100.00</strong>
+				</section>
+			</section>
+			<a href="javascript:void(0);" class="sub_btn">提交</a>
+		</section>
+		<!-- 提交订单结束 -->
+	</section>
+	<!-- 全部商家信息结束 -->
+</body>
+</html>
+<script src="http://libs.baidu.com/jquery/1.11.3/jquery.min.js"></script>
+<script src="../js/remshipei.js"></script>
+<script>
+	$(function(){
+		$('.edit_btn').click(function(event) {
+			/* Act on the event */
+			$('.eject').slideToggle('slow');
+		});
+	})
+</script>

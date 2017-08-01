@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+<meta name="format-detection" content="telephone=no" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<title>产品详情</title>
+<link rel="stylesheet" href="../css/reset.css">
+<link rel="stylesheet" href="../css/swiper.min.css">
+<link rel="stylesheet" href="../css/product_detail.css">
+<link rel="stylesheet" href="http://at.alicdn.com/t/font_3ymnlpvlw5ovfgvi.css">
+</head>
+<body>
+	<!-- 轮播图开始 -->
+	<div class="swiper-container">
+		<div class="swiper-wrapper">
+			<div class="swiper-slide" style="height:auto;">
+				<img src="../imgs/detail_banner1.jpg" height="760" width="760" alt="">
+			</div>
+			<div class="swiper-slide" style="height:auto;">
+				<img src="../imgs/detail_banner2.jpg" height="760" width="760" alt="">
+			</div>
+		</div>
+		<section class="back_car">
+			<a class="iconfont  icon-fanhui1 icon_size" href="index.html"></a>
+			<a class="iconfont  icon-circularorder fixed_right icon_size" href="shopping_car.html"></a>
+		</section>
+	<!-- Add Pagination -->
+		<div class="swiper-pagination"></div>
+	</div>
+	<!-- 轮播图结束 -->
+	<!-- 产品基本信息开始 -->
+	<section class="product_parameters">
+		<section class="product_title">
+			ONLY含羊毛可拆卸貉子毛领印花羽绒服女T|115323020
+		</section>
+		<section class="product_price">
+			<i>¥</i>
+			<strong>298.00</strong>
+		</section>
+		<section class="postage">
+			<small>快递：<i>¥</i>12.00</small>
+			<small>销量：5000</small>
+			<small>天津</small>
+		</section>
+	</section>
+	<!-- 产品基本信息结束 -->
+	<!-- 选择尺码开始 -->
+	<a href="javascript:void(0);" class="select_size shopping_car_click">
+		选择颜色分类、尺码<i class="iconfont icon-youbian icon_right"></i>
+	</a>
+	<!-- 选择尺码结束 -->
+
+	<!-- 后台详情开始 -->
+	<section class="bg_details">
+		<img src="../imgs/detail_banner1.jpg" height="760" width="760" alt="">
+		<img src="../imgs/detail_banner1.jpg" height="760" width="760" alt="">
+		<img src="../imgs/detail_banner1.jpg" height="760" width="760" alt="">
+	</section>
+	<!-- 后台详情结束 -->
+
+	<!-- 立即购买开始 -->
+	<section class="buy_now">
+		<a href="javascript:void(0);" class="enter_car shopping_car_click">加入购物车</a>
+		<a href="javascript:void(0);" class="enter_buy">立即购买</a>
+	</section>
+	<!-- 立即购买结束 -->
+	<!-- 选择类型开始 -->
+	<section class="product_size" style="display:none;">
+		<section class="meng_ceng"></section>
+		<section class="flex_all">
+			<section class="blank"></section>
+			<section class="size">
+				<section class="shop_title">
+					<section class="product_img">
+						<section class="img_contain">
+							<img src="../imgs/product_img.jpg" height="220" width="220" alt="">
+						</section>
+						<section  class="product_msg">
+							<p><i>¥</i>&nbsp;<span>12.00</span></p>
+							<p><small>库存：13333</small></p>
+							<p><small>请选择颜色分类</small></p>
+						</section>
+					</section>
+					<a href="javascript:void(0);" class="iconfont icon-shanchu icon_remove"></a>
+				</section>
+				<section class="shop_contain_select">
+					<p class="contain_title">
+						尺码
+					</p>
+					<ul class="size_style">
+						<a href="javascript:void(0)" class="select_active">
+							160/80A/s
+						</a>
+						<a href="javascript:void(0)">
+							160/80A/s
+						</a>
+						<a href="javascript:void(0)">
+							160/80A/s
+						</a>
+						<a href="javascript:void(0)">
+							160/80A/s
+						</a>
+					</ul>
+				</section>
+				<section class="shop_color_select">
+					<p class="contain_title">
+						颜色分类
+					</p>
+					<ul class="color_size_style">
+						<a href="javascript:void(0)" class="select_active">
+							160/80A/s
+						</a>
+						<a href="javascript:void(0)">
+							160/80A/s
+						</a>
+						<a href="javascript:void(0)">
+							160/80A/s
+						</a>
+						<a href="javascript:void(0)">
+							160/80A/s
+						</a>
+					</ul>
+				</section>
+				<section class="shop_num_select">
+					<section class="buy_num">购买数量</section>
+					<section class="num_input">
+						<a href="javascript:void(0)"><img src="../imgs/reduce2.png" height="58" width="58" alt=""></a><input type="text" value="1"><a href="javascript:void(0)"><img src="../imgs/add.png" height="58" width="58" alt=""></a>
+					</section>
+				</section>
+				<a class="shop_confirm">确定</a>
+			</section>
+		</section>
+	</section>
+	<!-- 选择类型结束 -->
+</body>
+</html>
+<script src="http://libs.baidu.com/jquery/1.11.3/jquery.min.js"></script>
+<script src="../js/remshipei.js"></script>
+<script src="../js/swiper.min.js"></script>
+<script src="../js/jquery.myProgress.js"></script>
+<script>
+    $(function () {
+        $("#div3").myProgress({speed: 4000, percent: 60,width: "100%"});
+        /*购物车的呈现与消失开始*/
+        $('.shopping_car_click').click(function(event) {
+        	/* Act on the event */
+        	$('.product_size').css({
+        		display: 'block',
+        	});
+        });
+        /*购物车的呈现与消失结束*/
+        /*尺码，颜色Tab切换开始*/
+        $('.size_style').find('a').click(function(event) {
+        	/* Act on the event */
+        	$('.size_style').find('a').removeClass('select_active');
+        	$(this).addClass('select_active');
+        });
+          $('.color_size_style').find('a').click(function(event) {
+        	/* Act on the event */
+        	$('.color_size_style').find('a').removeClass('select_active');
+        	$(this).addClass('select_active');
+        });
+          $('.icon_remove').click(function(event) {
+          	/* Act on the event */
+          	$('.product_size').css({
+          		display: 'none',
+          	});
+          });
+        /*尺码，颜色Tab切换结束*/
+    })
+     var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        paginationClickable: true
+    });
+</script>
